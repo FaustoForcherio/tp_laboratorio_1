@@ -55,7 +55,7 @@ void AplicarInteres(float* resultado, float precio){
 }
 void FuncionPausa(){
 	char enter;
-	printf("Presione cualquier tecla para continuar.");
+	printf("Presione enter para continuar.");
 	fflush(stdin);
 	scanf("%c", &enter);
 }
