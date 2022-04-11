@@ -33,11 +33,22 @@ void CalcularDiferencia(float*, float, float);
 /// @return retorna el resultado de la division
 void Dividir(float*, float, float);
 
-
+/// @brief Transforma la moneda peso a Bitcoin
+/// @param Puntero en la que se guarda el valor de bitcoin
+/// @param Precio que recibe para efectuar el cambio
 void AplicarCambioBitcoin(float*, float);
 
+/// @brief Aplica un descuento al precio
+/// @param Puntero en la que se guarda el precio
+/// @param Precio al que se le aplica el descuento
 void AplicarDescuento(float*, float);
+
+/// @brief Aplica un aumento al precio
+/// @param Puntero en la que se guarda el precio final
+/// @param Precio al que se le aplica el aumento
 void AplicarInteres(float*, float);
+
+/// @brief Aplica una pausa para que se permita leer los datos antes de limpiar la consola
 void FuncionPausa(void);
 #endif /* BIBLIOTECATP1_H_ */
 
