@@ -296,7 +296,6 @@ int PedirStringSoloLetras (char mensaje[], char stringIngresado[])
     		printf("%s \n", mensaje);
     	    CleanBuff;
     	    scanf("%[^\n]", stringIngresado);
-    	    printf("|%s|", stringIngresado);
     }
     if(rtn==0){
     	EmprolijarString(stringIngresado);

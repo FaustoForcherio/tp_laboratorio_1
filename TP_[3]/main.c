@@ -65,7 +65,6 @@ int main()
             	}
                 break;
             case 3:
-            	if(flagCarga==1){
             		aux=controller_addPassenger(listaPasajeros);
         			if(aux==0){
         				flagCambios=1;
@@ -73,9 +72,6 @@ int main()
         			}else{
         				printf("Error al dar de alta el pasajero.");
         			}
-            	}else{
-            			printf("\nSe requiere cargar los archivos con los datos primero.");
-            	}
                 break;
             case 4:
             	aux=ll_isEmpty(listaPasajeros);
